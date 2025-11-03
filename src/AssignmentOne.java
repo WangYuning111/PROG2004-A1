@@ -93,7 +93,7 @@ public class AssignmentOne {
                 System.out.println("Cancelling appointment for: " + appointment.getPatientName());
                 appointments.remove(i);
                 found = true;
-                break; // 找到并删除后退出循环
+                break;
             }
         }
 

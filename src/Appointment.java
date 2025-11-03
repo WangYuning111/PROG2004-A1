@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Appointment {
 
     private String patientName;
@@ -38,15 +36,35 @@ public class Appointment {
     }
 
 
-    public String getPatientName() { return patientName; }
-    public void setPatientName(String patientName) { this.patientName = patientName; }
+    public String getPatientName() {
+        return patientName;
+    }
 
-    public String getPatientPhone() { return patientPhone; }
-    public void setPatientPhone(String patientPhone) { this.patientPhone = patientPhone; }
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
+    }
 
-    public String getPreferredTime() { return preferredTime; }
-    public void setPreferredTime(String preferredTime) { this.preferredTime = preferredTime; }
+    public String getPatientPhone() {
+        return patientPhone;
+    }
 
-    public HealthProfessional getSelectedDoctor() { return selectedDoctor; }
-    public void setSelectedDoctor(HealthProfessional selectedDoctor) { this.selectedDoctor = selectedDoctor; }
+    public void setPatientPhone(String patientPhone) {
+        this.patientPhone = patientPhone;
+    }
+
+    public String getPreferredTime() {
+        return preferredTime;
+    }
+
+    public void setPreferredTime(String preferredTime) {
+        this.preferredTime = preferredTime;
+    }
+
+    public HealthProfessional getSelectedDoctor() {
+        return selectedDoctor;
+    }
+
+    public void setSelectedDoctor(HealthProfessional selectedDoctor) {
+        this.selectedDoctor = selectedDoctor;
+    }
 }
